@@ -1,8 +1,10 @@
 import '../../src/App.css'
 
+import background from '../assets/images/COVER.jpg'
+
 export default function Main() {
   return (
-    <div className="w-full h-full min-h-[100vh] absolute top-0 flex items-center hero">
+    <div className="w-full h-full min-h-[100vh] absolute top-0 flex items-center" style={{backgroundImage:`url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className="flex flex-col items-center justify-center w-full md:max-w-[fit-content] md:ml-[15%] md:mb-[36px] gap-3">
             <h1 className="text-[36px] font-berkshire">Affordable and Efficient</h1>
             <h4 className='text-[24px] font-poppins'>Paying Guest Stay</h4>

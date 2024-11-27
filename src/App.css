@@ -14,12 +14,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.hero {
-    background-image: url('./src/assets/images/COVER.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
