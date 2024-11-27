@@ -1,9 +1,12 @@
 import { Homepage,Rooms, Services, About, Gallery, Contact } from './pages/index'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import ScrollToTop from './components/ScrollToTop';
+
 export default function App() {
     return (
         <Router>
+            <ScrollToTop />
             <Routes>
                 <Route path='/' element={<Homepage />} />
                 <Route path='/rooms' element={<Rooms />} />

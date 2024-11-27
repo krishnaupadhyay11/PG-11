@@ -4,7 +4,7 @@ import PrimaryButton from './PrimaryButton'
 export default function RoomsTrailer() {
   return (
     <div className="w-full max-w-7xl p-4 flex flex-col items-center">
-        <h1 className="font-berkshire text-[36px] text-center">Rooms</h1>
+        <h1 className="font-berkshire text-[36px] font-bold text-center">Rooms</h1>
 
         <div className="w-full flex flex-wrap items-center justify-center gap-8 md:gap-12 mt-12">
             {rooms.slice(0,3).map((room, index) => (

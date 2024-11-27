@@ -2,7 +2,7 @@ export default function Suggestions() {
   return (
     <div className="w-full max-w-7xl p-4 flex flex-col items-center">
         <h1 className="font-berkshire text-[36px] font-bold">Suggestions</h1>
-        <p>We value your advice</p>
+        <p>We welcome your advice or queries</p>
 
         <form className='flex flex-col gap-2 w-full max-w-[750px] mt-8 items-center'>
             <div className="flex flex-col md:flex-row w-full justify-between gap-4">

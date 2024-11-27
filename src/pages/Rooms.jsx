@@ -9,10 +9,11 @@ export default function Rooms() {
     <div className="w-full h-full flex flex-col items-center">
       <SubHeader />
       <Header />
+      <hr className='block w-full p-2 bg-logo2' />
       
-      <div className="w-full max-w-7xl p-4 flex flex-col items-center mt-12">
-        <h1 className="font-berkshire text-[36px] text-center">Our Rooms</h1>
-        <p>Check out rooms available at PG-11</p>
+      <div className="w-full max-w-7xl p-4 flex flex-col items-center mt-6">
+        <h1 className="font-berkshire text-[48px] font-bold text-center">Our Rooms</h1>
+        <p className="text-lg text-gray-900">Check out rooms available at PG-11</p>
 
         <div className="w-full flex flex-wrap items-center justify-center gap-8 md:gap-12 mt-12">
             {rooms.map((room, index) => (

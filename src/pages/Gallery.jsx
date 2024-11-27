@@ -6,11 +6,14 @@ import Footer from "../components/Footer"
 
 export default function Gallery() {
   return (
-    <div>
+    <div className="w-full h-full flex flex-col items-center">
       <SubHeader />
       <Header />
-      <div className="w-full max-w-7xl p-4 mt-12">
-          <h1 className="text-[36px] font-berkshire font-bold text-center">Gallery</h1>
+      <hr className='block w-full p-2 bg-logo2' />
+
+      <div className="w-full max-w-7xl p-4 mt-6 flex flex-col items-center">
+          <h1 className="text-[48px] font-berkshire font-bold text-center">Gallery</h1>
+          <p className="text-lg text-gray-900">Some Glimpse of Our PG</p>
 
           <div className="w-full flex flex-wrap justify-center gap-6 md:gap-12 mt-12">
               {images.map((image, index) => (

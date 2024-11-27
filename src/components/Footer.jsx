@@ -5,7 +5,7 @@ import { navLinks } from '../constants'
 
 export default function Footer() {
   return (
-    <footer className="w-full h-full p-4 bg-[#F0F0F0] pb-4">
+    <footer className="w-full h-full p-4 bg-[#F0F0F0] pb-4 mt-12">
         <div className="w-full max-w-7xl flex flex-col md:flex-row gap-4 p-4 justify-around">
             <div className="flex flex-col gap-2 items-center">
                 <div className="w-[64px] h-[64px]">

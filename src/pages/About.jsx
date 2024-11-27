@@ -9,11 +9,13 @@ export default function About() {
     <div className="w-full h-full flex flex-col items-center">
       <SubHeader />
       <Header />
+      <hr className='block w-full p-2 bg-logo2 z-10' />
 
-      <div className='max-w-7xl flex flex-col items-center mt-12'>
-        <h1 className='font-berkshire text-[36px] text-center'>About Us</h1>
+      <div className='w-full max-w-7xl flex flex-col p-4 items-center mt-6'>
+        <h1 className='font-berkshire text-[48px] font-bold text-center'>About Us</h1>
+        <p className='text-lg text-gray-900'>Know Who We Are</p>
 
-        <div className='w-full flex flex-col md:flex-row items-center gap-8 mt-12'>
+        <div className='w-full flex flex-col md:flex-row items-center justify-center gap-8 mt-12'>
           <div className='w-[300px] h-[300px]'>
             <img src={aboutImg1} alt='PG-11 Image' className='w-full h-full object-cover' />
           </div>
