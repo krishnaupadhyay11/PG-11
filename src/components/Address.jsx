@@ -1,6 +1,6 @@
 export default function Address() {
   return (
-    <div className="w-full max-w-7xl p-4 flex flex-col md:flex-row justify-between gap-4 items-center text-gray-800 mt-8">
+    <div className="w-full max-w-7xl p-4 flex flex-col md:flex-row justify-between gap-4 items-center text-gray-800 mt-8" id="contact-us">
         <p className="text-center">
             1110/11 (IIIrd Floor), Street No. 11,<br />
             Near Hanuman Mandir, Govindpuri, Kalkaji<br />

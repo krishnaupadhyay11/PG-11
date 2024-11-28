@@ -4,20 +4,32 @@ import Footer from "../components/Footer";
 
 import { services } from "../constants";
 
+import { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 export default function Services() {
+  useEffect(() => {
+    Aos.init()
+  }, [])
+
   return (
     <div className="w-full h-full flex flex-col items-center">
       <SubHeader />
       <Header />
       <hr className='block w-full p-2 bg-logo2' />
 
-      <div className="w-full max-w-7xl p-4 flex flex-col items-center mt-6">
-        <h1 className="font-berkshire text-[48px] font-bold text-center">Services We Provide</h1>
-        <p className="text-lg text-gray-900">A look into the facilities at your service in PG-11</p>
+      <div className="w-full flex flex-col items-center relative">
+        <div className="absolute w-full bg-[#f0f0f0] flex flex-col items-center p-2">
+          <h1 className="font-berkshire font-bold text-[48px]" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Services</h1>
+          <p className="text-lg text-gray-900" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">A look into facilities at your service in PG-11</p>
+        </div>
+      </div>
 
+      <div className="w-full h-full relative top-[120px] flex flex-col items-center">
         <div className="w-full flex flex-wrap items-center justify-center gap-8 md:gap-12 mt-12">
             {services.map((service, index) => (
-                <div className='flex flex-col items-center gap-2 max-w-[320px]' key={index}>
+                <div className='flex flex-col items-center gap-2 max-w-[320px]' key={index} data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                     <div className='w-[310px] h-[310px] rounded-2xl overflow-hidden'>
                         <img src={service.image} alt='Room Image' className='w-full h-full object-cover'/>                         
                     </div>
@@ -28,8 +40,8 @@ export default function Services() {
                 </div>
             ))}
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   )
 }
