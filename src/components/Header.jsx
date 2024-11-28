@@ -33,12 +33,12 @@ export default function Header() {
       <div className='md:hidden flex justify-end'>
         <img src={toggle ? close : menu} alt='menu' className='w-[24px] h-[24px] object-contain inline-block' onClick={() => setToggle((prev) => !prev)} />
 
-        <div className={`${toggle ? 'flex' : 'hidden'} flex-col fixed top-0 right-0 w-2/3 h-full min-h-[100vh] bg-cyan-700 p-4 items-center`}>
+        <div className={`${toggle ? 'flex' : 'hidden'} flex-col fixed top-0 right-0 w-2/3 h-full min-h-[100vh] bg-logo1 p-4 items-center`}>
           <div className='w-full flex justify-end pr-2 pt-2'>
             <img src={close} alt='close' className='w-[24px] h-[24px] object-contain' onClick={() => setToggle((prev) => !prev)} />
           </div>
-          <nav className='h-full flex justify-center items-center'>
-            <ul className='flex flex-col items-center gap-4'>
+          <nav className='h-full flex justify-center items-center z-50'>
+            <ul className='flex flex-col items-center gap-8'>
               {navLinks.map((navLink) => (
                 <li key={navLink.title}>
                   <Link to={navLink.link} className={`${navLink.link === activeNavLink ? 'text-logo2' : ''} text-white text-[22px] hover:text-logo2 p-2 px-4 transition-all duration-200`}>{navLink.title}</Link>

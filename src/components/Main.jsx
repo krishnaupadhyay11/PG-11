@@ -15,7 +15,7 @@ export default function Main() {
     <div className="w-full h-full min-h-[100vh] absolute top-0 flex items-center" style={{backgroundImage:`url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className="flex flex-col items-center justify-center w-full md:max-w-[fit-content] md:ml-[15%] md:mb-[36px] gap-3">
           <div className='flex flex-col items-center' data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-              <h1 className="text-[36px] font-berkshire">Affordable and Efficient</h1>
+              <h1 className="text-[36px] font-berkshire text-center">Affordable and Efficient</h1>
               <h4 className='text-[24px] font-poppins'>Paying Guest Stay</h4>
           </div>
 

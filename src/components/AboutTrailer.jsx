@@ -23,7 +23,7 @@ export default function AboutTrailer() {
       ) : (
         <>
           <h2 className="text-[36px] font-bold text-center font-berkshire">About Us</h2>
-          <p className="p-4 text-[16px] font-medium text-center md:text-left mt-[-32px] md:mt-0 md:max-w-[680px]">
+          <p className="p-4 text-[18px] font-medium text-center md:text-left mt-[-32px] md:mt-0 md:max-w-[680px]">
           At PG-11, we provide the most comfortable and quality accomodation that is eqipped with fully-furnished kitchens, washrooms and furniture. So, you focus on what you're here for and let us take care of your housing.
           </p>
         </>
