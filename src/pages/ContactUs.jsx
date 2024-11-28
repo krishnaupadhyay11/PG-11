@@ -21,7 +21,7 @@ export default function ContactUs() {
       <div className="w-full flex flex-col items-center relative">
         <div className="absolute w-full bg-[#f0f0f0] flex flex-col items-center p-2">
           <h1 className="font-berkshire font-bold text-[48px]" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Contact Us</h1>
-          <p className="text-lg text-gray-900" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">We Welcome Your Queries and Suggestions</p>
+          <p className="text-lg text-gray-900 text-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">We Welcome Your Queries and Suggestions</p>
         </div>
       </div>
 
@@ -30,8 +30,8 @@ export default function ContactUs() {
           <div className="w-full max-w-[650px] flex justify-between items-center gap-8 md:gap-12 mb-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
             <h1 className="text-[36px] font-berkshire font-bold">Address</h1>
             <p className="text-center text-gray-800 sm:w-full sm:max-w-[400px]">
-              1110/11 (IIIrd Floor), Street No. 11,<br />
-              Near Hanuman Mandir, Govindpuri, Kalkaji<br />
+              1110/11 (IIIrd Floor), Street No. 11,<br className="hidden md:block"/>
+              Near Hanuman Mandir, Govindpuri, Kalkaji<br className="hidden md:block"/>
               New Delhi - 110019
             </p>
           </div>

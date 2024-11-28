@@ -22,7 +22,7 @@ export default function Rooms() {
       <div className="w-full flex flex-col items-center relative">
         <div className="absolute w-full bg-[#f0f0f0] flex flex-col items-center p-2">
           <h1 className="font-berkshire font-bold text-[48px]" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Rooms</h1>
-          <p className="text-lg text-gray-900" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Check out rooms available at PG-11</p>
+          <p className="text-lg text-gray-900 text-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Check out rooms available at PG-11</p>
         </div>
       </div>
 
