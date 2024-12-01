@@ -1,5 +1,7 @@
 import { socials } from "../constants"
 
+import { Link } from "react-router-dom"
+
 export default function SubHeader() {
   return (
     <div className="w-full bg-transparent relative top-0 py-1 px-2 md:px-6 flex items-center justify-between z-[9999]">
@@ -25,6 +27,11 @@ export default function SubHeader() {
                         <i className="uil uil-envelope-alt text-[18px]"></i>
                         <h2>vik19692005@yahoo.co.in</h2>
                     </a>
+
+                    <Link to='https://pg11.in' className="flex items-center gap-1">
+                        <i className="uil uil-globe text-[18px] font-thin"></i>
+                        <h2>pg11.in</h2>
+                    </Link>
                 </div>
             </div>
 

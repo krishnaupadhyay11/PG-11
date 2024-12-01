@@ -12,7 +12,7 @@ export default function Suggestions() {
 
             </div>
             <textarea placeholder='Your message or queries' rows={4} className='form-element w-full'></textarea>
-            <button type='submit' className='p-2 px-3 bg-primary primary-button max-w-[350px] mt-4'>Submit</button>
+            <button type='submit' className='p-2 px-3 bg-primary primary-button max-w-[350px] mt-4' id="contact-us">Submit</button>
         </form>
     </div>
   )

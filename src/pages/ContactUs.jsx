@@ -3,6 +3,8 @@ import Header from "../components/Header"
 import Maps from '../components/Maps'
 import Footer from "../components/Footer"
 
+import WhatsApp from '../assets/images/WhatsAppButton.png'
+
 import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -30,8 +32,8 @@ export default function ContactUs() {
           <div className="w-full max-w-[650px] flex justify-between items-center gap-8 md:gap-12 mb-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
             <h1 className="text-[36px] font-berkshire font-bold">Address</h1>
             <p className="text-center text-gray-800 sm:w-full sm:max-w-[400px]">
-              1110/11 (IIIrd Floor), Street No. 11,<br className="hidden md:block"/>
-              Near Hanuman Mandir, Govindpuri, Kalkaji<br className="hidden md:block"/>
+              1110/11 (IIIrd Floor), Street No. 11,<br className="hidden md:block"/><span className="md:hidden"> </span>
+              Near Hanuman Mandir, Govindpuri, Kalkaji<br className="hidden md:block"/><span className="md:hidden"> </span>
               New Delhi - 110019
             </p>
           </div>
@@ -55,6 +57,12 @@ export default function ContactUs() {
             <p className="text-center text-gray-800 sm:w-full sm:max-w-[400px]">
                 Mon - Sun: 10:00 AM - 7:00 PM
             </p>
+          </div>
+          <div className="h-[1px] w-[64px] bg-gray-500 sprinkle mb-4" />
+          <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/919873089523">
+                <img alt="Chat on WhatsApp" src={WhatsApp} width={300}/>
+            </a>
           </div>
         </div>
         <Maps />

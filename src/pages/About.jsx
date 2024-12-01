@@ -32,9 +32,19 @@ export default function About() {
             <img src={aboutImg1} alt='PG-11 Image' className='w-full h-full object-cover' />
           </div>
 
-          <p className='text-center max-w-[600px] p-4'>
-            At PG-11, we provide the most comfortable and quality accomodation that is eqipped with fully-furnished kitchens, washrooms and furniture. So, you focus on what you're here for and let us take care of your housing.
-          </p>
+          <div className='flex flex-col items-center'>
+            <p className='text-center max-w-[600px] p-4 flex flex-col items-center'>
+              At PG-11, we provide the most comfortable and quality accomodation that is eqipped with fully-furnished kitchens, washrooms and furniture. So, you focus on what you're here for and let us take care of your housing.
+            </p>
+            <div className='flex flex-col items-center'>
+              <h2 className='text-[18px] font-bold'>Vikram Sharma, Manager</h2>
+              <div className='flex items-center gap-1'>
+                <i className="uil uil-phone-alt text-[18px] text-gray-900"></i>
+                <p>+91 9873089523, +91 98110 89523</p>
+              </div>
+            </div>
+
+          </div>
         </div>
         <Footer />
       </div>
