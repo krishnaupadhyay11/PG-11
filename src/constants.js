@@ -102,23 +102,23 @@ export const images = [
 
 export const tests = [
     {
-        name: 'Person1',
-        remark: 'Best accomodation I ever had in a PG'
+        name: 'Ajay Saxena',
+        remark: 'Pocket friendly. Well maintained rooms with attached bathroom.'
     },
     {
-        name: 'Person2',
-        remark: 'Best accomodation I ever had in a PG'
+        name: 'Aman Kumar',
+        remark: 'Friendly environment and best facilities available here..'
     },
     {
-        name: 'Person3',
-        remark: 'Best accomodation I ever had in a PG'
+        name: 'Krishna',
+        remark: 'Very Supportive Management'
     },
     {
-        name: 'Person4',
-        remark: 'Best accomodation I ever had in a PG'
+        name: 'Shivam Sharma',
+        remark: 'Great experience.'
     },
     {
-        name: 'Person5',
-        remark: 'Best accomodation I ever had in a PG'
+        name: 'Harsh Raj',
+        remark: 'Comfortable accomodation and great maintenance'
     },
 ]
