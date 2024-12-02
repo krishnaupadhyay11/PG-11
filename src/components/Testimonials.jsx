@@ -22,7 +22,7 @@ export default function Testimonials() {
         <h1 className="text-[36px] font-berkshire font-bold p-2">Testimonials</h1>
 
         <div className="w-full h-full max-w-[600px] relative flex justify-center">
-            <div className="w-full max-w-[180px] md:max-w-[400px] lg:max-w-[450px] overflow-hidden p-4 flex flex-nowrap gap-0 md:gap-4">
+            <div className="w-full max-w-[180px] md:max-w-[400px] lg:max-w-[450px] overflow-hidden flex flex-nowrap gap-0 md:gap-4">
                 {tests.map((test, index) => (
                     <div className=" w-[180px] md:w-[225px] flex flex-col flex-shrink-0 flex-grow-0 gap-2 items-center transition-all duration-300 ease-in-out" key={index} style={{translate:`${-100*currentIndex}%`}}>
                         <h1 className="text-[22px] font-bold">{test.name}</h1>                        

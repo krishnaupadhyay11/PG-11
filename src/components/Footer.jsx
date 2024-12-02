@@ -41,8 +41,8 @@ export default function Footer() {
                 <h1 className='text-[24px] font-bold mb-2'>Address</h1>
 
                 <p className="text-center">
-                    1110/11 (IIIrd Floor), Street No. 11,<br />
-                    Near Hanuman Mandir, Govindpuri, Kalkaji<br />
+                    1110/11 (3rd Floor), Street No. 11,<br />
+                    Vikram Interiors, Govindpuri, Kalkaji<br />
                     New Delhi - 110019
                 </p>
             </div>

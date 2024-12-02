@@ -32,8 +32,8 @@ export default function ContactUs() {
           <div className="w-full max-w-[650px] flex justify-between items-center gap-8 md:gap-12 mb-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
             <h1 className="text-[36px] font-berkshire font-bold">Address</h1>
             <p className="text-center text-gray-800 sm:w-full sm:max-w-[400px]">
-              1110/11 (IIIrd Floor), Street No. 11,<br className="hidden md:block"/><span className="md:hidden"> </span>
-              Near Hanuman Mandir, Govindpuri, Kalkaji<br className="hidden md:block"/><span className="md:hidden"> </span>
+              1110/11 (3rd Floor), Street No. 11,<br className="hidden md:block"/><span className="md:hidden"> </span>
+              Vikram Interiors, Govindpuri, Kalkaji<br className="hidden md:block"/><span className="md:hidden"> </span>
               New Delhi - 110019
             </p>
           </div>
