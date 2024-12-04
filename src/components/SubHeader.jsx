@@ -9,7 +9,7 @@ export default function SubHeader() {
             <ul className="flex text-[20px] gap-2 md:ml-2">
                 {socials.map((social) => (
                     <li key={social.name}>
-                        <a href={social.link} className="" target="_blank">
+                        <a href={social.link} className="" target={`${social.link !== '/' ? '_blank' : ''}`}>
                             <i className={`uil uil-${social.icon.toLowerCase()}`}></i>
                         </a>
                     </li>

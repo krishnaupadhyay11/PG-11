@@ -25,7 +25,7 @@ export default function Header() {
   return (
     <header className={`w-full sticky top-0 h-[72px] py-2 px-4 md:px-6 flex items-center justify-between z-[9999] ${!home ? 'bg-white' : ''}`}>
       <div className="h-16 w-16">
-        <Link to='/'>
+        <Link to='/' onClick={() => window.scroll(0,0)}>
           <img src={logo} alt='PG-11 Logo' className='w-full h-full object-contain' />
         </Link>
       </div>
