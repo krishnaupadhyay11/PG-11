@@ -2,27 +2,27 @@ export const socials = [
     {
         name: 'Facebook',
         icon: 'facebook',
-        link: 'https://www.facebook.com/upadhyaycomputers'
+        link: '/'
     },
     {
         name: 'Instagram',
         icon: 'instagram',
-        link: 'https://www.instagram.com/upadhyaycomputers'
+        link: '/'
     },
     {
         name: 'YouTube',
         icon: 'youtube',
-        link: 'https://www.facebook.com/upadhyaycomputers'
+        link: '/'
     },
     {
         name: 'Twitter',
         icon: 'twitter',
-        link: 'https://www.facebook.com/upadhyaycomputers'
+        link: '/'
     },
     {
         name: 'Pinterest',
         icon: 'pinterest',
-        link: 'https://www.facebook.com/upadhyaycomputers'
+        link: '/'
     }
 ]
 

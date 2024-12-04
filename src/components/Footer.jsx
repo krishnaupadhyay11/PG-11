@@ -15,6 +15,8 @@ export default function Footer() {
                 <div className='flex flex-col items-center gap-2'>
                     <h1 className='text-[24px] font-bold mb-2'>Contact Us</h1>
 
+                    <h2 className='text-center text-[18px]'>Vikram Sharma</h2>
+
                     <a href="tel:+919873089523" className="flex items-center gap-1">
                         <i className="uil uil-phone-alt text-[18px] text-gray-900"></i>
                         <h2>+91 9873089523</h2>

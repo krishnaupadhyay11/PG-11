@@ -48,6 +48,7 @@ export default function ContactUs() {
           <div className="w-full max-w-[650px] flex justify-between items-center gap-8 md:gap-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
             <h1 className="text-[36px] font-berkshire font-bold">Phone No.</h1>
             <p className="text-center text-gray-800 sm:w-full sm:max-w-[400px]">
+                Vikram Sharma <br />
                 +91-9873089523
             </p>
           </div>

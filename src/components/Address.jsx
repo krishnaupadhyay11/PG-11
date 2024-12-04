@@ -14,6 +14,7 @@ export default function Address() {
         </p>
         <div className="md:h-[64px] md:w-[1px] h-[1px] w-[64px] bg-gray-500 sprinkle" />
         <p className="text-center">
+            Vikram Sharma <br />
             +91-9873089523
         </p>
         <div className="md:h-[64px] md:w-[1px] h-[1px] w-[64px] bg-gray-500 sprinkle" />
