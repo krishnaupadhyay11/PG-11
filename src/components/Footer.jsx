@@ -5,8 +5,8 @@ import { navLinks } from '../constants'
 
 export default function Footer() {
   return (
-    <footer className="w-full h-full p-4 bg-[#F0F0F0] pb-4 mt-12">
-        <div className="w-full max-w-7xl flex flex-col md:flex-row gap-4 p-4 justify-around">
+    <footer className="w-full h-full bg-[#F0F0F0] mt-12 flex flex-col">
+        <div className="w-full max-w-7xl flex flex-col md:flex-row gap-4 p-8 pb-16 justify-around">
             <div className="flex flex-col gap-2 items-center">
                 <div className="w-[64px] h-[64px]">
                     <img src={logo} alt="PG-11's Logo" className="w-full h-full object-contain" />
@@ -60,7 +60,13 @@ export default function Footer() {
                     ))}
                 </ul>
             </div>
+        </div>
 
+        <div className='w-full px-4 py-1 bg-logo1 flex justify-center items-center'>
+            <h1>&#169; 2025 Vikram Interiors. Designed and Developed by <Link to='https://krishnaupadhyay.vercel.app' className='text-logo2' target='_blank'>
+                    Krishna.
+                </Link>
+            </h1>
         </div>
     </footer>
   )
